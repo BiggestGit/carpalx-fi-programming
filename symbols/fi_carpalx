@@ -1,0 +1,64 @@
+partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "fi(basic)"
+    name[Group1]= "Finnish (Carpalx QGMLWY Programmer Final)";
+
+    // Top left key
+    key <TLDE> { [ less, greater, section ] };
+
+    // --- NUMBER ROW ---
+    key <AE01> { [          1, exclam ] };
+    key <AE02> { [          2, quotedbl, at, at ] };
+    key <AE03> { [          3, numbersign ] };
+    key <AE04> { [          4, dollar ] };
+    key <AE05> { [          5, percent ] };
+    key <AE06> { [          6, ampersand ] };
+    key <AE07> { [          7, slash ] };
+    key <AE08> { [          8, asciitilde ] };
+    key <AE09> { [          9, asciicircum ] };
+    key <AE10> { [          0, backslash ] };
+    key <AE11> { [       plus,     question ] };
+    key <AE12> { [ dead_acute,   dead_grave ] };
+
+    // --- TOP ALPHA ROW ---
+    key <AD01> { [          q,           Q ] };
+    key <AD02> { [          g,           G ] };
+    key <AD03> { [          m,           M ] };
+    key <AD04> { [          l,           L ] };
+    key <AD05> { [          w,           W ] };
+    key <AD06> { [          y,           Y ] };
+    key <AD07> { [          f,           F ] };
+    key <AD08> { [          u,           U ] };
+    key <AD09> { [          b,           B ] };
+    key <AD10> { [ adiaeresis,  Adiaeresis, Aring, Aring ] }; // Ä (Easy top row) + AltGr Å
+    key <AD11> { [ bracketleft, braceleft ] };
+    key <AD12> { [ bracketright, braceright ] };
+
+    // --- HOME ROW ---
+    key <AC01> { [          d,          D ] };
+    key <AC02> { [          s,          S ] };
+    key <AC03> { [          t,          T ] };
+    key <AC04> { [          n,          N ] };
+    key <AC05> { [          r,          R ] };
+    key <AC06> { [          i,          I ] };
+    key <AC07> { [          a,          A, aring, Aring ] }; // a + AltGr å
+    key <AC08> { [          e,          E ] };
+    key <AC09> { [          o,          O ] };
+    key <AC10> { [          h,          H ] };
+    key <AC11> { [ apostrophe,   asterisk ] };
+    key <BKSL> { [ odiaeresis, Odiaeresis ] }; // Ö (Hard middle row stretch)
+
+    // --- BOTTOM ROW ---
+    key <LSGT> { [ parenleft, parenright, bar, bar ] }; // ( ) |
+    key <AB01> { [         z,          Z ] };
+    key <AB02> { [         x,          X ] };
+    key <AB03> { [         c,          C ] };
+    key <AB04> { [         v,          V ] };
+    key <AB05> { [         j,          J ] };
+    key <AB06> { [         k,          K ] };
+    key <AB07> { [         p,          P ] };
+    key <AB08> { [     comma,  semicolon ] };
+    key <AB09> { [    period,      colon ] };
+    key <AB10> { [     minus, underscore, equal, equal ] }; // - _ =
+};
